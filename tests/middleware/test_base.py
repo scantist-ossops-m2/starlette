@@ -1038,7 +1038,6 @@ def test_pr_1519_comment_1236166180_example() -> None:
     assert bodies == [b"Hello, World!-foo"]
 
 
-
 @pytest.mark.anyio
 async def test_multiple_middlewares_stacked() -> None:
     class DummyMiddleware(BaseHTTPMiddleware):
